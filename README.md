@@ -16,6 +16,7 @@ algorithm extracts purely from pixel data, with no labels or supervision.
 It's a good visual proof that the math is actually working.
 
 
+
 ## What it does
 
 Takes two face images and smoothly morphs one into the other by navigating
