@@ -1,4 +1,4 @@
-# Eigenfaces: Face Morphing Engine from Scratch
+# Eigenfaces — PCA-Based Face Morphing
 
 While studying linear algebra, the idea that a human face can be represented
 as a vector in high-dimensional space, and that SVD can extract the principal
