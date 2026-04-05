@@ -15,8 +15,6 @@ One interesting outcome was the eigenface grid — those ghostly patterns the
 algorithm extracts purely from pixel data, with no labels or supervision.
 It's a good visual proof that the math is actually working.
 
-I first heard about eigenfaces and face morphing online, but understanding
-the math made me want to implement it myself rather than just read about it.
 
 ## What it does
 
@@ -82,16 +80,17 @@ possible components. This is the dimensionality reduction tradeoff at work.
 
 ![Morph GIF](morph.gif)
 
-## How to Run
+How to Run
 
-1. Download the LFW (Labeled Faces in the Wild) dataset
-2. Place it in the project folder as `lfw_funneled`
-
+Download the LFW (Labeled Faces in the Wild) dataset
+Place it in the project folder as lfw_funneled
 Install dependencies:
-pip install numpy opencv-python pillow
+
+   pip install numpy opencv-python pillow
 
 Run:
-python main.py
+
+   python main.py
 
 ## Tech Stack
 
