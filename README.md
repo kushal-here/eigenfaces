@@ -22,10 +22,12 @@ It's a good visual proof that the math is actually working.
 Takes two face images and smoothly morphs one into the other by navigating
 through eigenspace — the mathematical space where faces live.
 
-## Why this is unique
+## Why this is interesting
 
-This project implements the full pipeline:
-mean-centering, SVD, projection, interpolation, and reconstruction.
+Instead of relying on pre-built PCA libraries, this project implements the
+full eigenfaces pipeline using only NumPy, including direct SVD
+on high-dimensional image data.
+
 
 ## The Math
 
